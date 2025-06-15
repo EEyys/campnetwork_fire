@@ -1,4 +1,5 @@
 # campnetwork_fire
+```
 (function() {
   const links = Array.from(document.querySelectorAll('a.secondary-pill-button'));
   if (links.length <= 0) {
@@ -30,3 +31,4 @@
     clearInterval(intervalId);
   }, maxDuration);
 })();
+```
